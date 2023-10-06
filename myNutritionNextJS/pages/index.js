@@ -10,31 +10,34 @@ export default function Home() {
       </Head>
 
       <main>
-        <div>
-          <div>icon</div>
-          <div>Nutritionist</div>
+        <div className={styles.flexRow}>
+          <div className={styles.flexRow}>
+            <div>icon</div>
+            <div>Nutritionist</div>
+          </div>
+          <div className={styles.flexRow}>
+            <div>
+              Options
+            </div>
+            <div>
+              Options
+            </div>
+            <div>
+              Options
+            </div>
+            <div>
+              Options
+            </div>
+          </div>
         </div>
-        <div className={styles.headNavigation}>
-          <div>
-            Options
-          </div>
-          <div>
-            Options
-          </div>
-          <div>
-            Options
-          </div>
-          <div>
-            Options
-          </div>
-        </div>
+
       </main>
 
       <footer>
         <h1>Footer contianer</h1>
       </footer>
 
-      
+
     </div>
   );
 }
