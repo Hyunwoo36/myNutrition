@@ -2,6 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
+
   return (
     <div className={styles.mainContainer}>
       <Head>
@@ -16,16 +17,16 @@ export default function Home() {
             <div>Nutritionist</div>
           </div>
           <div className={styles.flexRow}>
-            <div>
+            <div className={styles.padding}>
               Options
             </div>
-            <div>
+            <div className={styles.padding}>
               Options
             </div>
-            <div>
+            <div className={styles.padding}>
               Options
             </div>
-            <div>
+            <div className={styles.padding}>
               Options
             </div>
           </div>
