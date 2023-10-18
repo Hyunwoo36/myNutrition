@@ -1,0 +1,11 @@
+html, body {
+  font-family: 'Times New Roman', Times, serif; /* Adding a fallback generic font family */
+  height: 100%; /* Ensure they take full height */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+}
+
+/* This ensures that the main Next.js container also takes full height */
+#__next {
+  height: 100%;
+}

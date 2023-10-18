@@ -1,0 +1,11 @@
+.mainContainer {
+  background-color: #3A9106;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+.padding {
+  padding: 2rem;
+}
