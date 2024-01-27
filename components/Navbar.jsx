@@ -1,6 +1,7 @@
-import React from 'react'
-import Image from 'next/image'
+import React from 'react';
+import Image from 'next/image';
 import Button from './Button';
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
@@ -18,7 +19,9 @@ const Navbar = () => {
         <div className="flex gap-16 text-[#F5F5DC] items-center">
             <p className="">Recipes</p>
             <p className="">My Profile</p>
-            <Button text={"Log In"} color={"bg-[#FFB000]"} width={"w-[140px]"} height={"h-[50px]"} textColor={"text-[#F5F5DC]"}/>
+            <Link href='/Login'>
+              <Button text={"Log In"} color={"bg-[#FFB000]"} width={"w-[140px]"} height={"h-[50px]"} textColor={"text-[#F5F5DC]"}/>
+            </Link>
         </div>
     </div>
   )
